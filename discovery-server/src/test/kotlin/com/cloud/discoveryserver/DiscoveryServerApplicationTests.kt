@@ -1,10 +1,10 @@
-package com.cloud.eurekaserver
+package com.cloud.discoveryserver
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class EurekaServerApplicationTests {
+class DiscoveryServerApplicationTests {
 
 	@Test
 	fun contextLoads() {
