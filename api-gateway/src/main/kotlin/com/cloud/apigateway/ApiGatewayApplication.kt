@@ -9,5 +9,5 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient
 class ApiGatewayApplication
 
 fun main(args: Array<String>) {
-	runApplication<ApiGatewayApplication>(*args)
+    runApplication<ApiGatewayApplication>(*args)
 }
