@@ -22,3 +22,9 @@ spring:
             - Path=/api/auth/**
           filters:
             - StripPrefix=1
+        - id: game-timeline
+          uri: lb://game-timeline
+          predicates:
+            - Path=/api/timeline/**
+          filters:
+            - StripPrefix=2
